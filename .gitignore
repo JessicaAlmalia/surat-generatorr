@@ -1,0 +1,18 @@
+# Jangan commit file environment & secrets
+.env
+
+# Folder virtual environment
+venv/
+__pycache__/
+
+# File yang dihasilkan oleh Python
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Folder uploads (kalau tidak mau ikut di commit)
+uploads/
+
+# File Word sementara
+*.docx~
